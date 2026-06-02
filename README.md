@@ -1,9 +1,19 @@
-<!-- Capsule Render header — servidor próprio, 100% estável -->
+<!-- Header SVG inline — sem dependência externa, sem erros de XML -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=1B4F72&height=120&section=header&text=Wigo%20Amaral&fontSize=36&fontColor=D6EAF8&fontAlignY=38&desc=Full%20Stack%20Developer%20%C2%B7%20Web%20%26%20Mobile&descAlignY=58&descSize=16&descColor=AED6F1" width="100%" />
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 120" width="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1B4F72"/>
+      <stop offset="100%" style="stop-color:#2E86C1"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="120" fill="url(#bg)"/>
+  <path d="M0,80 C200,120 600,40 800,80 L800,120 L0,120 Z" fill="#1A5276" opacity="0.5"/>
+  <text x="400" y="52" font-family="Arial,sans-serif" font-size="28" font-weight="bold" fill="#D6EAF8" text-anchor="middle">Wigo Amaral</text>
+  <text x="400" y="82" font-family="Arial,sans-serif" font-size="14" fill="#AED6F1" text-anchor="middle">Full Stack Developer · Web &amp; Mobile</text>
+</svg>
 </div>
 
-<!-- Typing SVG — servidor próprio, 100% estável -->
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1000&color=2E86C1&center=true&vCenter=true&width=500&lines=Node.js+%7C+TypeScript+%7C+Vue.js+%7C+Nuxt.js;React+Native+%7C+PHP+%7C+PostgreSQL;Docker+%7C+MongoDB+%7C+CyberSec;3%2B+anos+em+produto+digital+(Braip)" alt="Typing SVG" />
 </div>
@@ -43,7 +53,6 @@ Trabalho com aplicações web e mobile usando TypeScript, Vue.js, Nuxt.js e Reac
 **Mobile**
 
 ![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=flat&logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
 
 **Back-end**
 
@@ -56,7 +65,7 @@ Trabalho com aplicações web e mobile usando TypeScript, Vue.js, Nuxt.js e Reac
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
 
-**DevOps & Ferramentas**
+**DevOps**
 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
@@ -73,8 +82,8 @@ Trabalho com aplicações web e mobile usando TypeScript, Vue.js, Nuxt.js e Reac
 ## Projetos em destaque
 
 ### [store-api-wigo](https://github.com/wigodz/store-api-wigo)
-API REST para e-commerce — Node.js, TypeScript, PostgreSQL e Prisma ORM, containerizada com Docker.  
-JWT com controle de roles, validação com Zod, transações atômicas para pedidos + controle de estoque, rate limiting e error handling centralizado.
+API REST para e-commerce — Node.js, TypeScript, PostgreSQL e Prisma ORM, containerizada com Docker.
+JWT com controle de roles, validação com Zod, transações atômicas para pedidos com controle de estoque, rate limiting e error handling centralizado.
 
 `Node.js` `TypeScript` `PostgreSQL` `Prisma` `Docker` `JWT` `Zod`
 
@@ -89,25 +98,15 @@ Estudo prático de arquitetura de software com PHP, Laravel e Blade — separaç
 
 ## GitHub Stats
 
-> ℹ️ Os cards de stats abaixo são gerados automaticamente via **GitHub Actions** e ficam salvos como imagens no próprio repositório — sem depender de serviços externos.
-
-<!-- 
-  INSTRUÇÕES PARA ATIVAR OS CARDS:
-  1. Crie o arquivo .github/workflows/profile-summary-cards.yml (incluso abaixo)
-  2. Após o primeiro workflow rodar, substitua os caminhos abaixo pelos arquivos gerados:
-     profile-summary-card-output/github-contribution-graph.svg
-     profile-summary-card-output/profile-details.svg  
-     profile-summary-card-output/repos-per-language.svg
-     profile-summary-card-output/most-commit-language.svg
--->
-
 <div align="center">
 
-![Profile Details](./profile-summary-card-output/0-profile-details.svg)
+![](./profile-summary-card-output/0-profile-details.svg)
 
-![](./profile-summary-card-output/1-repos-per-language.svg) ![](./profile-summary-card-output/2-most-commit-language.svg)
+![](./profile-summary-card-output/1-repos-per-language.svg)
+![](./profile-summary-card-output/2-most-commit-language.svg)
 
-![](./profile-summary-card-output/3-stats.svg) ![](./profile-summary-card-output/4-productive-time.svg)
+![](./profile-summary-card-output/3-stats.svg)
+![](./profile-summary-card-output/4-productive-time.svg)
 
 </div>
 
@@ -123,11 +122,17 @@ Estudo prático de arquitetura de software com PHP, Laravel e Blade — separaç
 
 ---
 
+<!-- Footer SVG inline -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=1B4F72&height=80&section=footer" width="100%" />
-</div>
-
-<div align="center">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 60" width="100%">
+  <defs>
+    <linearGradient id="fg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1B4F72"/>
+      <stop offset="100%" style="stop-color:#2E86C1"/>
+    </linearGradient>
+  </defs>
+  <path d="M0,30 C200,0 600,60 800,30 L800,60 L0,60 Z" fill="url(#fg)"/>
+</svg>
 
 **Disponível para trabalho remoto ou híbrido**
 
