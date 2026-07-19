@@ -52,3 +52,13 @@
 ```
 
     
+
+---
+
+![](./4-productive-time.svg)
+
+```
+![](https://raw.githubusercontent.com/wigodz/wigodz/main/profile-summary-card-output/yeblu/4-productive-time.svg)
+```
+
+    
